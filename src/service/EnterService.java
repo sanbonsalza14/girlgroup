@@ -12,5 +12,6 @@ public class EnterService {
         System.out.println("[EnterService.getAllEntertasinment");
     }
     public List<GirlGroup>getGroups(int )
+        ㄴ이랴;ㅁㄴ이ㅏㄹ;
 
 }
