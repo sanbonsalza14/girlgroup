@@ -1,4 +1,4 @@
-﻿package dto;
+package dto;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -9,6 +9,16 @@ public class GirlGroup {
     public int g_id;
     private String name;
     private LocalDate debut;
+
+    @Override
+    public String toString() {
+        return "GirlGroup{" +
+                "sc=" + sc +
+                ", g_id=" + g_id +
+                ", name='" + name + '\'' +
+                ", debut=" + debut +
+                '}';
+    }
 
     public int getG_id(){return  g_id;}
     public void setG_id(int g_id) {this.g_id=g_id;}

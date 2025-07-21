@@ -1,4 +1,4 @@
-﻿package dto;
+package dto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,14 @@ import java.util.List;
 public class Entertainment {
     private int e_ide;
     private String name;
+
+    @Override
+    public String toString() {
+        return "Entertainment{" +
+                "e_ide=" + e_ide +
+                ", name='" + name + '\'' +
+                '}';
+    }
 
     public int getE_ide() {return e_ide;}
 
